@@ -106,3 +106,16 @@ a:visited {
     text-align: center;
     margin-top: 0;
 }
+
+/* Comments Section Styling */
+.comments-section {
+    background-color: #fff;
+    color: #222;
+    padding: 32px;
+    margin: 32px auto;
+    max-width: 800px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    border-radius: 8px;
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
