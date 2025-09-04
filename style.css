@@ -1,0 +1,108 @@
+/* Remove default body margin */
+body {
+    margin: 0;
+}
+
+/* Set default font */
+h1, h2, h3, h4, h5, h6, nav {
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+}
+p, article {
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+}
+
+/* Header styling */
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 24px 0;
+    text-align: center;
+    font-size: 2rem;
+}
+
+/* Navbar styling */
+nav {
+    background-color: #222;
+    color: #fff;
+    padding: 16px 0;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 16px;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: teal;
+}
+
+a:visited {
+    color: teal;
+}
+
+/* Responsive navbar styling */
+@media (max-width: 600px) {
+    nav {
+        padding: 8px 0;
+        font-size: 1rem;
+    }
+    nav a {
+        margin: 0 8px;
+    }
+}
+
+/* Home Articles Header Styling */
+.homepage-content h2 {
+    text-align: center;
+}
+
+/* Home Article Card styling */
+.article-cards {
+    background-color: #fff;
+    color: #222;
+    padding: 32px;
+    margin: 32px auto;
+    max-width: 800px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    border-radius: 8px;
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+/* Article Cards Links Styling */
+.article-cards a {
+    color: hsl(162, 100%, 18%);
+    text-decoration: none;
+    transition: color 0.2s;;
+}
+
+/* Responsive article cards styling */
+@media (max-width: 600px) {
+    article {
+        padding: 16px;
+        margin: 16px;
+        font-size: 1rem;
+        max-width: 100%;
+    }
+}
+
+/* Blog Post Styling */
+.blog-post {
+    background-color: #fff;
+    color: #222;
+    padding: 32px;
+    margin: 32px auto;
+    max-width: 800px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    border-radius: 8px;
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+
+.blog-post h2 {
+    text-align: center;
+    margin-top: 0;
+}
